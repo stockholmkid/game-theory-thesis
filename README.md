@@ -1,5 +1,7 @@
-# Tic Tac Toe
+# Game Theory
 
-Tic Tac Toe made in Rails 5 and Action Cable
+This app is used to randomly pair a leader and follower using real time via Action Cable from Rails 5.
 
-[Read](http://cookieshq.co.uk/posts/tic-tac-toe-game-in-rails-5-with-action-cable/) our blog post about how this was made using Action Cable in Rails 5
+This app with leader and follower follows Stackleberg theory.
+
+Sequential Moves. 
