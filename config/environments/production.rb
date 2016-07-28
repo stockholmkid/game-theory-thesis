@@ -35,9 +35,9 @@ Rails.application.configure do
   # config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect' # for NGINX
 
   # Action Cable endpoint configuration
-   config.action_cable.url = 'wss://cookieshq-tictactoe.herokuapp.com/cable'
-   config.action_cable.allowed_request_origins = [ 'https://cookieshq-tictactoe.herokuapp.com', /http:\/\/cookieshq-tictactoe.herokuapp.com.*/  ]
-
+   config.action_cable.url = 'wss://game-theory-thesis.herokuapp.com/cable'
+   config.action_cable.allowed_request_origins = [ 'https://game-theory-thesis.herokuapp.com', /http:\/\/game-theory-thesis.herokuapp.com.*/  ]
+   config.web_socket_server_url = "wss://game-theory-thesis.herokuapp.com/cable" 
   # Don't mount Action Cable in the main server process.
   # config.action_cable.mount_path = nil
 
