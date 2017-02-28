@@ -111,9 +111,9 @@ var Game = function(element, playerType){
 
   this.newLeader = function(){
     if(this.currentPlayer === this.activePlayer){
-    $('#status').html('You are the leader. Please enter an input to send to the follower. Then wait. After you recieve an input from the follower reload the page!');
+    $('#status').html('You are the leader. Please enter an input to send to the follower. Then wait. After you recieve an input from the follower record your inputs and profit then reload the page!');
     } else {
-    $('#status').html('You are the follower. Do not do anything until an input appears on your screen! Record their input and your input on!');
+    $('#status').html('You are the follower. Do not do anything until an input appears on your screen! Send your input then record your profit and profits on the sheet provided!');
     }
   }
 
